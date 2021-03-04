@@ -1,4 +1,8 @@
-<h3>Hello World!</h3>
+<h3>大家好！</h3>
 
-<h3>go module @latest found but does not contain package</h3>
-<p>go clean -modcache</p>
+<h3>关于go module @latest found but does not contain package错误信息的解决方法：</h3>
+<p>
+  <ul>
+    <li>go clean -modcache</li>
+    <li>查看import路径是否是引用的包路径，注意这个包路径并不是库路径，是你实际库下包含你引用的方法或者结构的路径。</li>
+</p>
